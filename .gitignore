@@ -1,0 +1,19 @@
+# Local env config — never commit secrets or your specific HF account id
+.env
+
+# CI-only smoke output (predictions.csv IS the real submission and must be committed)
+predictions_smoke.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
